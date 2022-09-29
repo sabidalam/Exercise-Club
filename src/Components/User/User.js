@@ -4,13 +4,14 @@ import logo from '../../images/me.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const User = ({ List }) => {
     let totalTime = 0;
     for (const exercise of List) {
         totalTime = (totalTime + exercise.time);
     }
-    const [value, setValue] = useState('');
 
+    const [value, setValue] = useState('');
 
     const displayToast = () => {
         toast("All Activity Completed!", {
