@@ -17,7 +17,7 @@
     "muscle": "biceps",
     "equipment": "E-z_curl_bar",
     "difficulty": "intermediate",
-    "time": 120,
+    "time": 180,
     "img": "https://cdn.mos.cms.futurecdn.net/882r52chfQqDHNLeEAUnUB.jpg",
     "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar."
   },
@@ -28,7 +28,7 @@
     "muscle": "calves",
     "equipment": "Machine",
     "difficulty": "intermediate",
-    "time": 120,
+    "time": 160,
     "img": "https://assets.myworkouts.io/exercises-media/XHoNbWbCZy9jgkR7m/standing_machine_calf_raise_male_v22_thumb100Poster_capoff.jpg",
     "instructions": "Place a block or weight plate below the bar on the Smith machine. Set the bar to a position that best matches your height. Once the correct height is chosen and the bar is loaded."
   },
@@ -50,7 +50,7 @@
     "muscle": "chest",
     "equipment": "Body_only",
     "difficulty": "intermediate",
-    "time": 180,
+    "time": 300,
     "img": "https://blog.nasm.org/hubfs/power-pushups.jpg",
     "instructions": "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length. Next, lower yourself downward until chest almost touches the floor."
   },
@@ -61,7 +61,7 @@
     "muscle": "forearms",
     "equipment": "Roller or None",
     "difficulty": "intermediate",
-    "time": 120,
+    "time": 180,
     "img": "https://mbxbodyfit.com/wp-content/uploads/2021/04/Straight-Bar-Wrist-Roll-Up-1024x683.jpg",
     "instructions": "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width. This will be your starting position. Alternating between each of your hands."
   },
@@ -83,7 +83,7 @@
     "muscle": "lower_back",
     "equipment": "Body_only",
     "difficulty": "intermediate",
-    "time": 120,
+    "time": 180,
     "img": "https://cdn.mos.cms.futurecdn.net/Z9rZT2TnTwLCbtWKBe3T9S.jpg",
     "instructions": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads. Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room."
   },
@@ -94,7 +94,7 @@
     "muscle": "neck",
     "equipment": "Other",
     "difficulty": "beginner",
-    "time": 120,
+    "time": 60,
     "img": "https://musqle.com/Media/Default/Exercise%20images/BIG59467.jpg?preset=hd",
     "instructions": "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself."
   }

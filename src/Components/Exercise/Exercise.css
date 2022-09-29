@@ -45,3 +45,9 @@
     bottom: 5;
     cursor: pointer;
 }
+
+@media only screen and (max-width:560px) {
+    .exercise-body img {
+        margin-left: 50px;
+    }
+}

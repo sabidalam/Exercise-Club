@@ -7,15 +7,11 @@ import 'react-toastify/dist/ReactToastify.css';
 const User = ({ List }) => {
     let totalTime = 0;
     for (const exercise of List) {
-        totalTime = totalTime + exercise.time;
+        totalTime = (totalTime + exercise.time);
     }
-    const [value, setValue] = useState();
-    const addBreakTime = () => {
+    const [value, setValue] = useState('');
 
-        setValue(value);
-        console.log(value);
 
-    }
     const displayToast = () => {
         toast("All Activity Completed!", {
             position: 'top-center'
@@ -48,11 +44,11 @@ const User = ({ List }) => {
             <div className='break'>
                 <h3>Add A Break</h3>
                 <div className='break-time'>
-                    <button onClick={addBreakTime} className='time-btn'><span id='1st'>20s</span></button>
-                    <button className='time-btn'>30s</button>
-                    <button className='time-btn'>40s</button>
-                    <button className='time-btn'>50s</button>
-                    <button className='time-btn'>60s</button>
+                    <input className='time-btn' type="button" value="20s" onClick={e => setValue(e.target.value)} />
+                    <input className='time-btn' type="button" value="30s" onClick={e => setValue(e.target.value)} />
+                    <input className='time-btn' type="button" value="40s" onClick={e => setValue(e.target.value)} />
+                    <input className='time-btn' type="button" value="50s" onClick={e => setValue(e.target.value)} />
+                    <input className='time-btn' type="button" value="60s" onClick={e => setValue(e.target.value)} />
                 </div>
             </div>
             <div className='exercise-details'>
@@ -63,7 +59,7 @@ const User = ({ List }) => {
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
-                    <span>{value}</span>
+                    <span><b>{value}</b></span>
                 </div>
             </div>
             <button onClick={displayToast} className='complete-btn'>Activity Completed</button>
