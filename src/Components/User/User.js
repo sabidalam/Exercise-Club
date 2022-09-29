@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './User.css';
 import logo from '../../images/me.jpg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const User = ({ List }) => {
     let totalTime = 0;
@@ -13,6 +15,11 @@ const User = ({ List }) => {
         setValue(value);
         console.log(value);
 
+    }
+    const displayToast = () => {
+        toast("All Activity Completed!", {
+            position: 'top-center'
+        });
     }
 
     return (
@@ -59,7 +66,8 @@ const User = ({ List }) => {
                     <span>{value}</span>
                 </div>
             </div>
-            <button className='complete-btn'>Activity Completed</button>
+            <button onClick={displayToast} className='complete-btn'>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };
