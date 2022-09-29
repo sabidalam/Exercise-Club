@@ -22,4 +22,6 @@
 .user-activity {
     background-color: white;
     height: 800px;
+    position: sticky;
+    top: 0;
 }

@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './User.css';
 import logo from '../../images/me.jpg';
 
-const User = () => {
+const User = ({ List }) => {
+    console.log(List);
+    let totalTime = 0;
+    for (const exercise of List) {
+        totalTime = totalTime + exercise.time;
+    }
+
     return (
         <div>
             <div className='user-info'>
@@ -29,7 +35,7 @@ const User = () => {
             <div className='break'>
                 <h3>Add A Break</h3>
                 <div className='break-time'>
-                    <button className='time-btn'>20s</button>
+                    <button className='time-btn'><span id='1st'>20s</span></button>
                     <button className='time-btn'>30s</button>
                     <button className='time-btn'>40s</button>
                     <button className='time-btn'>50s</button>
@@ -40,11 +46,11 @@ const User = () => {
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <h4>Exercise Time</h4>
-                    <span>seconds</span>
+                    <span><b>{totalTime}seconds</b></span>
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
-                    <span>seconds</span>
+                    <span></span>
                 </div>
             </div>
             <button className='complete-btn'>Activity Completed</button>

@@ -13,7 +13,7 @@ const Exercise = (props) => {
                     <h5>Time Required: {time}s</h5>
                     <p><b>Instruction</b>: {instructions}</p>
                 </div>
-                <button className='add-btn'>Add to List</button>
+                <button onClick={() => props.HandleAddToList(props.Exercise)} className='add-btn'>Add to List</button>
             </div >
 
         </div >

@@ -5,13 +5,19 @@ import './Activity.css';
 
 const Activity = () => {
     const [exercises, setExercises] = useState([]);
+    const [list, setList] = useState([]);
 
     useEffect(() => {
         fetch('activities.json')
             .then(res => res.json())
             .then(data => setExercises(data))
-
     }, []);
+
+    const handleAddToList = (exercise) => {
+        const newList = [...list, exercise];
+        setList(newList);
+
+    }
     return (
         <div>
             <div className='activity-container'>
@@ -21,13 +27,14 @@ const Activity = () => {
                         {
                             exercises.map(exercise => <Exercise
                                 key={exercise.id}
-                                Exercise={exercise}>
+                                Exercise={exercise}
+                                HandleAddToList={handleAddToList}>
                             </Exercise>)
                         }
                     </div>
                 </div>
                 <div className='user-activity'>
-                    <User></User>
+                    <User List={list}></User>
 
                 </div>
             </div>
