@@ -8,7 +8,7 @@
     "difficulty": "beginner",
     "time": 120,
     "img": "https://www.buildingbeast.com/wp-content/uploads/2019/07/incline-dumbbell-hammer-2.jpg",
-    "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together. Allow the dumbbells to hang straight down at your side, holding them with a neutral grip. This will be your starting position."
+    "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together due to the shape of the bar ."
   },
   {
     "id": "0002",
@@ -19,7 +19,7 @@
     "difficulty": "intermediate",
     "time": 120,
     "img": "https://cdn.mos.cms.futurecdn.net/882r52chfQqDHNLeEAUnUB.jpg",
-    "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position."
+    "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar."
   },
   {
     "id": "0003",
@@ -30,7 +30,7 @@
     "difficulty": "intermediate",
     "time": 120,
     "img": "https://assets.myworkouts.io/exercises-media/XHoNbWbCZy9jgkR7m/standing_machine_calf_raise_male_v22_thumb100Poster_capoff.jpg",
-    "instructions": "Place a block or weight plate below the bar on the Smith machine. Set the bar to a position that best matches your height. Once the correct height is chosen and the bar is loaded, step onto the plates with the balls of your feet and place the bar on the back of your shoulders."
+    "instructions": "Place a block or weight plate below the bar on the Smith machine. Set the bar to a position that best matches your height. Once the correct height is chosen and the bar is loaded."
   },
   {
     "id": "0004",
@@ -41,7 +41,7 @@
     "difficulty": "intermediate",
     "time": 120,
     "img": "https://www.usa-homegym.com/wp-content/uploads/2022/02/man-wearing-black-shirt-doing-close-grip-bench-press.jpg",
-    "instructions": "Lie back on a flat bench. Using a close grip (around shoulder width), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position. As you breathe in, come down slowly until you feel the bar on your middle chest."
+    "instructions": "Lie back on a flat bench. Using a close grip (around shoulder width), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position."
   },
   {
     "id": "0005",
@@ -52,7 +52,7 @@
     "difficulty": "intermediate",
     "time": 180,
     "img": "https://blog.nasm.org/hubfs/power-pushups.jpg",
-    "instructions": "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length. Next, lower yourself downward until chest almost touches the floor as you inhale. Now breathe out and press body back up while squeezing your chest."
+    "instructions": "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length. Next, lower yourself downward until chest almost touches the floor."
   },
   {
     "id": "0006",
@@ -63,7 +63,7 @@
     "difficulty": "intermediate",
     "time": 120,
     "img": "https://mbxbodyfit.com/wp-content/uploads/2021/04/Straight-Bar-Wrist-Roll-Up-1024x683.jpg",
-    "instructions": "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width. This will be your starting position. Alternating between each of your hands, perform the movement by extending the wrist as though you were rolling up a newspaper."
+    "instructions": "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width. This will be your starting position. Alternating between each of your hands."
   },
   {
     "id": "0007",
@@ -74,7 +74,7 @@
     "difficulty": "beginner",
     "time": 120,
     "img": "https://cdn.shopify.com/s/files/1/1876/4703/articles/shutterstock_1050237944_1000x.jpg?v=1617729101",
-    "instructions": "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture."
+    "instructions": "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine."
   },
   {
     "id": "0008",
@@ -85,7 +85,7 @@
     "difficulty": "intermediate",
     "time": 120,
     "img": "https://cdn.mos.cms.futurecdn.net/Z9rZT2TnTwLCbtWKBe3T9S.jpg",
-    "instructions": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads. Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room for you to bend at the waist without any restriction."
+    "instructions": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads. Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room."
   },
   {
     "id": "0009",
@@ -96,6 +96,6 @@
     "difficulty": "beginner",
     "time": 120,
     "img": "https://musqle.com/Media/Default/Exercise%20images/BIG59467.jpg?preset=hd",
-    "instructions": "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench."
+    "instructions": "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself."
   }
 ]

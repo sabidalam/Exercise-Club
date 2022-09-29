@@ -1,6 +1,6 @@
 .exercise-body {
     background-color: white;
-    height: 550px;
+    height: 520px;
     border-radius: 10px;
     position: relative;
 }
@@ -10,7 +10,7 @@
     height: 172px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 12px;
 }
 
 .exercise-body h3 {

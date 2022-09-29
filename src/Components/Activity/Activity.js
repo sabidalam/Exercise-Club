@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import User from '../User/User';
 import './Activity.css';
 
 const Activity = () => {
@@ -13,16 +14,20 @@ const Activity = () => {
     }, []);
     return (
         <div>
-            <h3 className='Title'>Select Today's Exercise</h3>
             <div className='activity-container'>
-                <div className='all-activities'>
-                    {
-                        exercises.map(exercise => <Exercise
-                            Exercise={exercise}>
-                        </Exercise>)
-                    }
+                <div>
+                    <h3 className='Title'>Select Today's Exercise</h3>
+                    <div className='all-activities'>
+                        {
+                            exercises.map(exercise => <Exercise
+                                key={exercise.id}
+                                Exercise={exercise}>
+                            </Exercise>)
+                        }
+                    </div>
                 </div>
-                <div className='user-info'>
+                <div className='user-activity'>
+                    <User></User>
 
                 </div>
             </div>

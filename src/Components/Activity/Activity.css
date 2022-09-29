@@ -1,18 +1,24 @@
 .Title {
     color: white;
     margin: 0;
-    padding: 30px 65px;
+    width: 50%;
+    padding: 30px 60px;
 }
 
 .activity-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1.3fr;
     margin: auto;
-    width: 90%;
 }
 
 .all-activities {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.user-activity {
+    background-color: white;
 }
