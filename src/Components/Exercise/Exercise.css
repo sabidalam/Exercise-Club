@@ -1,0 +1,46 @@
+.exercise-body {
+    background-color: white;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.exercise-body img {
+    width: 250px;
+    height: 172px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.exercise-body h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.exercise-body h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.exercise-body h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.exercise-info {
+    margin-left: 20px;
+}
+
+.add-btn {
+    width: 80%;
+    font-weight: 700;
+    margin-left: 30px;
+    padding: 10px 0;
+    background-color: cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5;
+}

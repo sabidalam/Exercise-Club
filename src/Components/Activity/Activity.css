@@ -1,0 +1,18 @@
+.Title {
+    color: white;
+    margin: 0;
+    padding: 30px 65px;
+}
+
+.activity-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: auto;
+    width: 90%;
+}
+
+.all-activities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+}

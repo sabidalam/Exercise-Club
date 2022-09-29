@@ -4,9 +4,10 @@
     "name": "Incline Hammer Curls",
     "type": "strength",
     "muscle": "biceps",
-    "equipment": "dumbbell",
+    "equipment": "Dumbbell",
     "difficulty": "beginner",
-    "img": "https://fitstop24.com/media/incline-dumbbell-hammer-curl_3.jpg.400x330_q95_crop-%2C_filters-detail.jpg",
+    "time": 120,
+    "img": "https://www.buildingbeast.com/wp-content/uploads/2019/07/incline-dumbbell-hammer-2.jpg",
     "instructions": "Seat yourself on an incline bench with a dumbbell in each hand. You should pressed firmly against he back with your feet together. Allow the dumbbells to hang straight down at your side, holding them with a neutral grip. This will be your starting position. Initiate the movement by flexing at the elbow, attempting to keep the upper arm stationary."
   },
   {
@@ -14,18 +15,20 @@
     "name": "EZ-Bar Curl",
     "type": "strength",
     "muscle": "biceps",
-    "equipment": "e-z_curl_bar",
+    "equipment": "E-z_curl_bar",
     "difficulty": "intermediate",
-    "img": "https://garagegymplanner.com/wp-content/uploads/2018/02/leg-curl.jpg",
-    "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position. Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps. Focus on only moving your forearms."
+    "time": 120,
+    "img": "https://cdn.mos.cms.futurecdn.net/882r52chfQqDHNLeEAUnUB.jpg",
+    "instructions": "Stand up straight while holding an EZ curl bar at the wide outer handle. The palms of your hands should be facing forward and slightly tilted inward due to the shape of the bar. Keep your elbows close to your torso. This will be your starting position. Now, while keeping your upper arms stationary, exhale and curl the weights forward while contracting the biceps."
   },
   {
     "id": "0003",
     "name": "Smith Machine Calf Raise",
     "type": "strength",
     "muscle": "calves",
-    "equipment": "machine",
+    "equipment": "Machine",
     "difficulty": "intermediate",
+    "time": 120,
     "img": "https://assets.myworkouts.io/exercises-media/XHoNbWbCZy9jgkR7m/standing_machine_calf_raise_male_v22_thumb100Poster_capoff.jpg",
     "instructions": "Place a block or weight plate below the bar on the Smith machine. Set the bar to a position that best matches your height. Once the correct height is chosen and the bar is loaded, step onto the plates with the balls of your feet and place the bar on the back of your shoulders."
   },
@@ -34,8 +37,9 @@
     "name": "Close-grip bench press",
     "type": "strength",
     "muscle": "chest",
-    "equipment": "barbell",
+    "equipment": "Barbell",
     "difficulty": "intermediate",
+    "time": 120,
     "img": "https://www.usa-homegym.com/wp-content/uploads/2022/02/man-wearing-black-shirt-doing-close-grip-bench-press.jpg",
     "instructions": "Lie back on a flat bench. Using a close grip (around shoulder width), lift the bar from the rack and hold it straight over you with your arms locked. This will be your starting position. As you breathe in, come down slowly until you feel the bar on your middle chest."
   },
@@ -44,8 +48,9 @@
     "name": "Pushups",
     "type": "strength",
     "muscle": "chest",
-    "equipment": "body_only",
+    "equipment": "Body_only",
     "difficulty": "intermediate",
+    "time": 180,
     "img": "https://blog.nasm.org/hubfs/power-pushups.jpg",
     "instructions": "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length. Next, lower yourself downward until your chest almost touches the floor as you inhale. Now breathe out and press your upper body back up to the starting position while squeezing your chest."
   },
@@ -54,9 +59,10 @@
     "name": "Straight-bar wrist roll-up",
     "type": "strength",
     "muscle": "forearms",
-    "equipment": "None",
+    "equipment": "Roller or None",
     "difficulty": "intermediate",
-    "img": "https://www.bodybuilding.com/images/2020/xdb/originals/xdb-116s-straight-bar-wrist-roll-up-m1-16x9.jpg",
+    "time": 120,
+    "img": "https://mbxbodyfit.com/wp-content/uploads/2021/04/Straight-Bar-Wrist-Roll-Up-1024x683.jpg",
     "instructions": "Hold a barbell with both hands and your palms facing down; hands spaced about shoulder width. This will be your starting position. Alternating between each of your hands, perform the movement by extending the wrist as though you were rolling up a newspaper. Continue alternating back and forth until failure."
   },
   {
@@ -64,8 +70,9 @@
     "name": "Natural Glute Ham Raise",
     "type": "strength",
     "muscle": "hamstrings",
-    "equipment": "body_only",
+    "equipment": "Body_only",
     "difficulty": "beginner",
+    "time": 120,
     "img": "https://cdn.shopify.com/s/files/1/1876/4703/articles/shutterstock_1050237944_1000x.jpg?v=1617729101",
     "instructions": "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture. This will be your starting position. Lower yourself under control until your knees are almost completely straight."
   },
@@ -74,8 +81,9 @@
     "name": "Back extension",
     "type": "strength",
     "muscle": "lower_back",
-    "equipment": "body_only",
+    "equipment": "Body_only",
     "difficulty": "intermediate",
+    "time": 120,
     "img": "https://cdn.mos.cms.futurecdn.net/Z9rZT2TnTwLCbtWKBe3T9S.jpg",
     "instructions": "Lie face down on a hyperextension bench, tucking your ankles securely under the footpads. Adjust the upper pad if possible so your upper thighs lie flat across the wide pad, leaving enough room for you to bend at the waist without any restriction. With your body straight, cross your arms in front of you (my preference) or behind your head."
   },
@@ -84,9 +92,10 @@
     "name": "Lying Face Down Plate Neck Resistance",
     "type": "strength",
     "muscle": "neck",
-    "equipment": "other",
+    "equipment": "Other",
     "difficulty": "beginner",
-    "img": "https://www.bodybuilding.com/exercises/exerciseImages/sequences/25/Male/l/25_2.jpg",
+    "time": 120,
+    "img": "https://musqle.com/Media/Default/Exercise%20images/BIG59467.jpg?preset=hd",
     "instructions": "Lie face down with your whole body straight on a flat bench while holding a weight plate behind your head. Tip: You will need to position yourself so that your shoulders are slightly above the end of a flat bench in order for the upper chest, neck and face to be off the bench. This will be your starting position."
   }
 ]
