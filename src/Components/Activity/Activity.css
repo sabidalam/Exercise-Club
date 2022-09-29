@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 4fr 1.3fr;
     margin: auto;
+    padding-bottom: 60px;
 }
 
 .all-activities {

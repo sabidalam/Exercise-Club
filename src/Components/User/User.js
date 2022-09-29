@@ -3,10 +3,16 @@ import './User.css';
 import logo from '../../images/me.jpg';
 
 const User = ({ List }) => {
-    console.log(List);
     let totalTime = 0;
     for (const exercise of List) {
         totalTime = totalTime + exercise.time;
+    }
+    const [value, setValue] = useState();
+    const addBreakTime = () => {
+
+        setValue(value);
+        console.log(value);
+
     }
 
     return (
@@ -35,7 +41,7 @@ const User = ({ List }) => {
             <div className='break'>
                 <h3>Add A Break</h3>
                 <div className='break-time'>
-                    <button className='time-btn'><span id='1st'>20s</span></button>
+                    <button onClick={addBreakTime} className='time-btn'><span id='1st'>20s</span></button>
                     <button className='time-btn'>30s</button>
                     <button className='time-btn'>40s</button>
                     <button className='time-btn'>50s</button>
@@ -50,7 +56,7 @@ const User = ({ List }) => {
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
-                    <span></span>
+                    <span>{value}</span>
                 </div>
             </div>
             <button className='complete-btn'>Activity Completed</button>
