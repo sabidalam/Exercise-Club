@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './User.css';
 import logo from '../../images/me.jpg';
 import { ToastContainer, toast } from 'react-toastify';
@@ -12,6 +12,10 @@ const User = ({ List }) => {
     }
 
     const [value, setValue] = useState('');
+    const clickHandler = e => {
+        setValue(e.target.value);
+
+    }
 
     const displayToast = () => {
         toast("All Activity Completed!", {
@@ -45,11 +49,11 @@ const User = ({ List }) => {
             <div className='break'>
                 <h3>Add A Break</h3>
                 <div className='break-time'>
-                    <input className='time-btn' type="button" value="20s" onClick={e => setValue(e.target.value)} />
-                    <input className='time-btn' type="button" value="30s" onClick={e => setValue(e.target.value)} />
-                    <input className='time-btn' type="button" value="40s" onClick={e => setValue(e.target.value)} />
-                    <input className='time-btn' type="button" value="50s" onClick={e => setValue(e.target.value)} />
-                    <input className='time-btn' type="button" value="60s" onClick={e => setValue(e.target.value)} />
+                    <input className='time-btn' type="button" value="20s" onClick={clickHandler} />
+                    <input className='time-btn' type="button" value="30s" onClick={clickHandler} />
+                    <input className='time-btn' type="button" value="40s" onClick={clickHandler} />
+                    <input className='time-btn' type="button" value="50s" onClick={clickHandler} />
+                    <input className='time-btn' type="button" value="60s" onClick={clickHandler} />
                 </div>
             </div>
             <div className='exercise-details'>
